@@ -48,7 +48,7 @@ void gitCloudPull(){
 void gitCloudPush(){
     system("git add --all");
     system("git commit -m \"user\" ");
-    system("git push origin master");
+    system("git push");
 }
 
 static char *rand_string(char *str, size_t size)
